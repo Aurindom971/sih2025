@@ -1,0 +1,95 @@
+{
+  "doctors": [
+    {
+      "id": "doctor1",
+      "username": "doctor1",
+      "password": "docpass1",
+      "name": "Dr. A. Sharma",
+      "doctor_field": "Alopathic",
+      "experience": "10 years"
+    },
+    {
+      "id": "doctor2",
+      "username": "doctor2",
+      "password": "docpass2",
+      "name": "Dr. B. Verma",
+      "doctor_field": "Yoga Therapy",
+      "experience": "7 years"
+    }
+  ],
+  "patients": [
+    {
+      "id": "patient1",
+      "username": "patient1",
+      "password": "patpass1",
+      "name": "John Doe",
+      "age": 30,
+      "gender": "Male",
+      "doctor_id": "doctor1",
+      "patient_remarks": "Diabetic",
+      "patient_medicines": "Metformin"
+    },
+    {
+      "id": "patient2",
+      "username": "patient2",
+      "password": "patpass2",
+      "name": "Jane Smith",
+      "age": 28,
+      "gender": "Female",
+      "doctor_id": "doctor2",
+      "patient_remarks": "Hypertensive",
+      "patient_medicines": "Amlodipine"
+    }
+  ],
+  "admins": [
+    {
+      "id": "admin1",
+      "username": "admin1",
+      "password": "adminpass1",
+      "name": "System Admin"
+    }
+  ],
+  "therapies": [
+    {
+      "patient_id": "patient1",
+      "therapy_name": "Panchakarma",
+      "sessions": 5
+    },
+    {
+      "patient_id": "patient2",
+      "therapy_name": "Yoga Therapy",
+      "sessions": 10
+    }
+  ],
+  "records": [
+    {
+      "patient_id": "patient1",
+      "record": "Blood test: Normal"
+    },
+    {
+      "patient_id": "patient1",
+      "record": "X-Ray: Mild issue"
+    },
+    {
+      "patient_id": "patient2",
+      "record": "Allergy test: Positive"
+    }
+  ],
+  "audit_logs": [
+    {
+      "user": "doctor1",
+      "action": "Added patient John Doe",
+      "timestamp": "2025-09-13 10:00"
+    },
+    {
+      "user": "doctor2",
+      "action": "Updated therapy for Jane Smith",
+      "timestamp": "2025-09-13 11:00"
+    },
+    {
+      "user": "admin1",
+      "action": "Viewed audit logs",
+      "timestamp": "2025-09-13 12:00"
+    }
+  ]
+}
