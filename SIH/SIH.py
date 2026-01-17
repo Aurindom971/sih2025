@@ -9,9 +9,6 @@ from datetime import datetime
 import random
 
 # MongoDB Connection
-uri = "mongodb+srv://aryagakhar_db_user:LBOwY630TBEqmExv@sih.ojdwej4.mongodb.net/?retryWrites=true&w=majority&appName=SIH"
-client = MongoClient(uri, server_api=ServerApi('1'))
-db = client['SIH_DB']
 
 class HospitalApp(QMainWindow):
     def __init__(self):
@@ -916,3 +913,4 @@ if __name__ == "__main__":
     window = HospitalApp()
     window.show()
     sys.exit(app.exec())
+
